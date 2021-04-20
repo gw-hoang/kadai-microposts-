@@ -12,6 +12,7 @@
                         {{-- ユーザ詳細ページへのリンク --}}
                         <p>{!! link_to_route('users.show', 'View profile', ['user' => $user->id]) !!}</p>
                     </div>
+                    
                 </div>
             </li>
         @endforeach
