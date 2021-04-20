@@ -88,7 +88,6 @@ class UsersController extends Controller
     public function favorites($id)
     {
        
-        //$micropost = \App\Micropost::findOrFail($id);
         $user = User::findOrFail($id);
         
         // 関係するモデルの件数をロード
